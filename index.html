@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="media/Logo .png" alt="">
+
+            <nav id="navbar">
+                <a href="#somos-proya">Quienes Somos</a>
+                <a href="#nuestros-programas">Nuestros Programas</a>
+                <a href="#contacto" onclick="seleccionar(this)">Contactanos</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Bienvenidos al Grupo <br> <span>Las Joyitas</span></h1>
+    </section>
+
+    <section id="somos-proya">
+
+
+        <h1>Nuestro Equipo</h1>
+        <p class="descripcion">Somos el grupo Las Joyita, Desarrolladores Web en aprendizaje, Espero que les guste
+            nuestra pagina.</p>
+
+        <!-- <div class="modo" id="modo">
+        <i class="fas fa-toggle-on"></i>
+    </div> -->
+
+        <section class="card">
+            <div class="card__perfil">
+                <div class="card__nombre">
+                    <img src="media/IMG-20240318-WA0030 (1).jpg" alt="" height="200px">
+                    <h2>Cristian <br> Aguirre </h2>
+                    <p>Desarrollador Web</p>
+                </div>
+                <hr>
+                <div class="card__descripcion">
+                    <p>Hola soy Cristian y estoy estudiando programacion, es muy interesante esta especialidad la
+                        verdad,
+                        espero poder salir con buenas notas, rendir una buena PAES y seguir estudiando lo que me gusta
+                    </p>
+                </div>
+                <hr>
+                <div class="card__button">
+                    <a class="enlace" href="https://kriizhtn21.github.io/Portafolio-Tp/" target="_blank">Portafolio</a>
+                </div>
+            </div>
+            <div class="card__perfil">
+                <div class="card__nombre">
+                    <img src="media/imag1234.png" alt="">
+                    <h2>Amaro <br> Rivera</h2>
+                    <p>Desarrollador web</p>
+                </div>
+                <hr>
+                <div class="card__descripcion">
+                    <p>¡Hola! Soy Amaro Rivera y estoy enfocado en estudiar programación. Mi objetivo es dedicarme
+                        plenamente a mejorar mis habilidades y obtener un rendimiento y calificaciones sobresalientes.
+
+                    </p>
+                </div>
+                <hr>
+                <div class="card__button">
+                    <a class="enlace" href="https://robertocarlos3006.github.io/Portafolio-feria-tp/"
+                        target="_blank">Portafolio</a>
+                </div>
+            </div>
+            <div class="card__perfil">
+                <div class="card__nombre">
+                    <img src="media/vicentemoreno.png" alt="">
+                    <h2>Vicente <br> Moreno</h2>
+                    <p>Desarrollador web</p>
+                </div>
+                <hr>
+                <div class="card__descripcion">
+                    <p>Soy Vicente Moreno, estudiante de programación. Me interesa mucho el desarrollo de software y me
+                        esfuerzo por aprender nuevas cosas y mejorar mis habilidades. Siempre busco desafíos y
+                        oportunidades para seguir creciendo.</p>
+                </div>
+                <hr>
+                <div class="card__button">
+                    <a class="enlace" href="https://vicentemoreno7777.github.io/Portafolio-tp-feria/?authuser=0"
+                        target="_blank">Portafolio</a>
+                </div>
+            </div>
+
+
+
+            <div class="card__perfil">
+                <div class="card__nombre">
+                    <img src="media/ailenjara.png.jpg" alt="">
+                    <h2>Aileen</h2>
+                    <h2>Jara</h2>
+                    <p>Desarrollador web</p>
+                </div>
+                <hr>
+                <div class="card__descripcion">
+                    <p>Hola soy Aileen Jara,estudiante de programación que es algo que quiero estudiar en un futuro para
+                        llegar a tener un emprendimiento y yo poder hacer mis propias páginas.</p>
+                </div>
+                <hr>
+                <div class="card__button">
+                    <a class="enlace" href="#" target="_blank">Portafolio</a>
+                </div>
+            </div>
+
+
+        </section>
+
+    </section>
+
+
+    <section id="nuestros-programas">
+        <div class="container">
+            <h2>Nuestros Programas</h2>
+            <div class="programas">
+                <div class="carta">
+                    <h3>Nuestro Negocio</h3>
+                    <p>Nuestro negocio se trata principalmente de venta de joyas de calidad</p>
+                    <button><a href="https://kriizhtn21.github.io/JoyeriaFinaTp/" target="_blank">Visitar</a></button>
+                </div>
+                <div class="carta">
+                    <h3>Zonas De Sacrificio</h3>
+                    <p>Una pagina web que habla sobre las zonas de sacrificio en nuestro pais.</p>
+                    <button><a href="https://kriizhtn21.github.io/Zona-De-Sacrificio/"
+                            target="_blank">Visitar</a></button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                        class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; Las Joyitas 2024</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
